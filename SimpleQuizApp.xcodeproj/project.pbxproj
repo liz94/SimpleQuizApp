@@ -14,6 +14,7 @@
 		2E0107AF22499A54004870F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0107AD22499A54004870F7 /* LaunchScreen.storyboard */; };
 		2E0107BA22499A54004870F7 /* SimpleQuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0107B922499A54004870F7 /* SimpleQuizAppTests.swift */; };
 		2E0107C522499A54004870F7 /* SimpleQuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0107C422499A54004870F7 /* SimpleQuizAppUITests.swift */; };
+		2EA69DD0224DC4B200F5357C /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA69DCF224DC4B200F5357C /* TwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2E0107C022499A54004870F7 /* SimpleQuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0107C422499A54004870F7 /* SimpleQuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQuizAppUITests.swift; sourceTree = "<group>"; };
 		2E0107C622499A54004870F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA69DCF224DC4B200F5357C /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2E0107A422499A52004870F7 /* AppDelegate.swift */,
 				2E0107A622499A52004870F7 /* ViewController.swift */,
+				2EA69DCF224DC4B200F5357C /* TwoViewController.swift */,
 				2E0107A822499A52004870F7 /* Main.storyboard */,
 				2E0107AB22499A54004870F7 /* Assets.xcassets */,
 				2E0107AD22499A54004870F7 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				2E0107A722499A52004870F7 /* ViewController.swift in Sources */,
 				2E0107A522499A52004870F7 /* AppDelegate.swift in Sources */,
+				2EA69DD0224DC4B200F5357C /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
