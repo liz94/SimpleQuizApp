@@ -10,8 +10,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let questions = ["What is the capital of Chile?" , "Which is the largest ocean on earth?", "Where is the Acropolis located?"]
-    let answers = [["Santiago", "Brasilia", "Lima"],["Pacific","Antarctic","Indian"],["Greece", "Italy", "France"]]
+    let questions = ["What is the capital of Chile?" , "Which is the largest ocean on earth?", "Where is the Acropolis located?", "What is the currency of Japan?", "What is the capital of Jordan?"]
+    let answers = [["Santiago", "Brasilia", "Lima"],["Pacific","Antarctic","Indian"],["Greece", "Italy", "France"],["Yen", "Won", "Yuan"], ["Amman", "Petra", "Jordan City"]]
     
     //Variables
     var currentQuestion = 0
