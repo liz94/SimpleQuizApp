@@ -18,6 +18,7 @@ class TwoViewController: UIViewController {
         
         if score != nil {lbl.text = score}
         // Do any additional setup after loading the view.
+        //spmetginh
     }
     
 
