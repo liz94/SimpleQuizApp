@@ -10,9 +10,13 @@ import UIKit
 
 class TwoViewController: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
+    var score: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if score != nil {lbl.text = score}
         // Do any additional setup after loading the view.
     }
     

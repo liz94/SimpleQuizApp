@@ -64,7 +64,7 @@
                     </view>
                     <connections>
                         <outlet property="lbl" destination="La0-rI-6f7" id="2CD-42-4j8"/>
-                        <segue destination="cLR-pe-ADp" kind="show" identifier="showScore" id="406-EA-am8"/>
+                        <segue destination="0TI-d6-gY4" kind="show" identifier="showScore" id="1w1-Of-nMj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -72,28 +72,32 @@
             <point key="canvasLocation" x="37.600000000000001" y="26.53673163418291"/>
         </scene>
         <!--Two View Controller-->
-        <scene sceneID="S1R-pb-uvm">
+        <scene sceneID="9b6-3i-iTx">
             <objects>
-                <viewController id="cLR-pe-ADp" customClass="TwoViewController" customModule="SimpleQuizApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OUi-Z2-B1R">
+                <viewController id="0TI-d6-gY4" customClass="TwoViewController" customModule="SimpleQuizApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="idb-Td-2XL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="De0-sx-gc2">
-                                <rect key="frame" x="142" y="313" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpW-Ah-J04">
+                                <rect key="frame" x="32" y="323" width="327" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Ho2-yY-qgg"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="IQI-YG-hRO"/>
                     </view>
+                    <connections>
+                        <outlet property="lbl" destination="YpW-Ah-J04" id="FiI-nY-VG3"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hSB-pz-zCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gT-h6-R7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="729" y="27"/>
+            <point key="canvasLocation" x="808.79999999999995" y="26.53673163418291"/>
         </scene>
     </scenes>
 </document>

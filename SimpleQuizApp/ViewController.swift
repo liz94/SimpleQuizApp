@@ -46,8 +46,27 @@ class ViewController: UIViewController {
         else
         {
             performSegue(withIdentifier: "showScore", sender: self)
+            
+         
         }
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "showScore"
+        {
+            if let secondVC = segue.destination as? TwoViewController
+            {
+                var a = "Congrats, you've got "
+                var b = String(points)
+                var c = " points!"
+                var d = "\(a) \(b) \(c)"
+                
+                secondVC.score = d
+            }
+            
+        }
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
      newQuestion()
     }
